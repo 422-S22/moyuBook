@@ -1,0 +1,3 @@
+/home/kylin/code/readhide/build/CMakeFiles/rebuild_cache.dir
+/home/kylin/code/readhide/build/CMakeFiles/edit_cache.dir
+/home/kylin/code/readhide/build/CMakeFiles/MoyuReader.dir
