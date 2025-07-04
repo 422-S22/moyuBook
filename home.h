@@ -13,10 +13,11 @@
 #ifndef HOME_H
 #define HOME_H
 
-#include <QGuiApplication>
 #include <QWidget>
+#include <QPlainTextEdit>
 
 class SystemTray;
+class TxtReadWidget;
 class Home : public QWidget
 {
 Q_OBJECT
@@ -24,13 +25,19 @@ Q_OBJECT
 public:
   Home();
   ~Home();
+
+protected:
+  void setUI();
+  void selectTxtFile();
+protected slots:
   void traySignalShow();
   void traySignalHide();
   void traySignalSelectFile();
   void traySignalSetting();
   void traySignalExit();
 private:
-  SystemTray* m_tray;
+  SystemTray* m_tray;       // 程序托盘
+  TxtReadWidget* m_txt_read_widget; // 文本显示区
 };
 
 #endif
