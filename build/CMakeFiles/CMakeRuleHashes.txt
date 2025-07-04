@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-b8fbdaf8d7a136e5e7db3bb6411ff903 moc_home.cpp
-404ec4d4aef47f8b95c585a02165c205 moc_systemtray.cpp
