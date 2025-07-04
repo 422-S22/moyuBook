@@ -13,11 +13,13 @@ set(SOURCES
   main.cpp
   home.cpp
   systemtray.cpp
+  txtreadwidget.cpp
 )
 
 set(HEADERS
   home.h
   systemtray.h
+  txtreadwidget.h
 )
 
 # Qt 的 UI、MOC、资源文件支持
